@@ -1,8 +1,8 @@
 require 'sinatra/base'
 
 class App < Sinatra::Base
-  get '/reverse' do
-    erb :reverse
+  get '/newteam' do
+    erb :newteam
   end
 
 end
